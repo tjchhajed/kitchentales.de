@@ -1,5 +1,5 @@
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top navbar-inner" role="navigation" style="border: none">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
@@ -9,19 +9,19 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#home">{{ site.title }}</a>
+            <a class="navbar-brand page-scroll" href="#home"><i class="fa fa-heart fa-fw heartbeat animate-infinite-heartbeat" style="color: tomato; font-size: 30px; margin-top: -5px"></i></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">  
-            	<li>
-                    <a class="page-scroll" href="#about">About</a>
-                </li>            
-                <li>
-                    <a class="page-scroll" href="#services">Services</a>
+            <ul class="nav navbar-nav navbar-right" style="font-family: Gotham-Bold;">
+            	  <li>
+                    <a class="page-scroll" href="#about" style="font-size: 12px; letter-spacing: 1px; color: white;">ABOUT</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a class="page-scroll" href="#story" style="font-size: 12px; letter-spacing: 1px; color: white;">STORY</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#rsvp" style="font-size: 12px; letter-spacing: 1px; color: white;">RSVP</a>
                 </li>
             </ul>
         </div>
@@ -31,31 +31,37 @@
 </nav>
 
 <section id="home">
+  <img class="bg-img" src="https://c8.staticflickr.com/1/671/32071180031_d760a4729a_h.jpg"/>
+  <img class="bg-img-blur" src="https://c2.staticflickr.com/1/540/32071180481_390df07b9f_h.jpg"/>
 <!-- Header -->
 	<div class="intro-header">
-
+  <!--  <video autoplay loop muted class="intro-bgvid">
+      <source src="https://pawelgrzybek.com/photos/2015-12-06-codepen.webm" type="video/webm">
+      <source src="https://pawelgrzybek.com/photos/2015-12-06-codepen.mp4" type="video/mp4">
+    </video> -->
 		<div class="container">
-
 			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-lg-12 text-right">
 					<div class="intro-message">
-						<h1>{{ page.title }}</h1>
-						<h3>{{ page.subTitle }}</h3>
-						<hr class="intro-divider">
+						<h1 class="option animated rubberBand animation-css-media-query" style="font-family: Roboto; font-weight: 100;">{{ page.title }}</h1>
+						<!-- <h2>{{ page.subTitle }}</h2> -->
+            <h2 class="option animated slideInUp">It is on 9th May this year. Mark it on your calendar. Here we come, India.</h2>
+            <scroll id="scroll-style" class="scrolling">
+	              <a class="page-scroll" href="#about"><span></span></a>
+            </scroll>
+            <!-- <hr class="intro-divider">
 						<ul class="list-inline intro-social-buttons">
 							{% for social in site.social %}
 							<li>
 								<a href="{{ social.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
 							</li>
 							{% endfor %}
-						</ul>
+						</ul> -->
 					</div>
 				</div>
 			</div>
-
 		</div>
 		<!-- /.container -->
-
 	</div>
 	<!-- /.intro-header -->
 </section>
