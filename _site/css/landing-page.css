@@ -56,8 +56,8 @@ html {
 
 @media (max-width: 767px) {
   .bg-img, .bg-img-blur {
-      // display: none;
-      // position: relative;
+      display: none;
+      position: relative;
       height: 100%;
       width: auto;
   }
