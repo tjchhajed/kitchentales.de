@@ -77,14 +77,6 @@ $('.owl-carousel').owlCarousel({
   });
 });
 
-/* scroll based parallax */
-$(document).ready(function() {
-    /* css + js driven API */
-    AOS.init();
-    /* pure js driven API */
-    skrollr.init();
-});
-
 /* blur background image on scroll */
 $(window).on('scroll', function () {
     var pixs = $(window).scrollTop();
