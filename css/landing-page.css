@@ -287,7 +287,11 @@ scroll::after {
 .scrolling a:hover {
 	opacity: .5;
 }
-
+@media (max-width:767px) {
+  #scroll-style  {
+  	display: none;
+  }
+}
 #scroll-style a {
 	padding-top: 60px;
 }
@@ -312,8 +316,8 @@ scroll::after {
 	margin-left: -3px;
 	background-color: #fff;
 	border-radius: 100%;
-	-webkit-animation: sdb10 2s infinite;
-	animation: sdb10 2s infinite;
+	-webkit-animation: sdb10 1s infinite;
+	animation: sdb10 1s infinite;
 	box-sizing: border-box;
 }
 @-webkit-keyframes sdb10 {
