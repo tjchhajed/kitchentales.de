@@ -385,7 +385,7 @@ scroll::after {
 }
 @media(max-width: 768px) {
     .animated.animation-css-media-query-h1  {
-        margin-top: 50px;
+        margin-top: 30%;
         font-size: 50px;
     }
 }
