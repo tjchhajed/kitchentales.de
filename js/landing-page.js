@@ -88,3 +88,13 @@ $(document).ready(function() {
     // init AOS
     AOS.init();
 });
+
+(function($){
+			$(document).ready(function (){
+				$("#side-menu-content").mCustomScrollbar({
+					theme:"rounded-dots",
+					scrollInertia:800
+				});
+
+			});
+		})(jQuery);
