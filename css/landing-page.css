@@ -474,7 +474,7 @@ blockquote:before {
     }
 }
 
-@media (min-width: 1000px){
+@media only screen and (max-device-width: 1000px){
     #story{
         display: none;
     }
