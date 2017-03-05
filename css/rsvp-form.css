@@ -3,7 +3,6 @@
     font-weight: 600;
     width: 500px;
     padding: 30px;
-    // background: rgba(0,0,0,0.3);
     margin: 50px auto;
 }
 @media (max-width: 768px){
@@ -12,11 +11,10 @@
   }
 }
 .form-style h2{
-    background: #4D4D4D;
     text-transform: uppercase;
     font-family: "Gotham-Light";
     font-weight: 600;
-    color: white;
+    color: #aaa;
     font-size: 18px;
     font-weight: 100;
     padding: 20px;
@@ -42,13 +40,12 @@
     width: 100%;
     padding: 7px;
     border: none;
-    border-bottom: 1px solid white;
-    background: transparent;
+    border-bottom: 1px solid #eee;
     margin-bottom: 10px;
     font-family: "Gotham-Light";
     font-size: 20px;
     font-weight: 300;
-    color: white;
+    color: black;
     height: 45px;
 }
 .form-style textarea{
@@ -91,23 +88,23 @@
 ::-webkit-input-placeholder {
    font-family: "Gotham-Light";
    font-weight: 300;
-   color: white;
+   color: #aaa;
 }
 
 :-moz-placeholder { /* Firefox 18- */
   font-family: "Gotham-Light";
   font-weight: 300;
-  color: white;
+  color: #aaa;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
   font-family: "Gotham-Light";
   font-weight: 300;
-  color: white;
+  color: #aaa;
 }
 
 :-ms-input-placeholder {
   font-family: "Gotham-Light";
   font-weight: 300;
-  color: white;
+  color: #aaa;
 }

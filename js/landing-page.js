@@ -83,3 +83,8 @@ $(window).on('scroll', function () {
     opacityVal = (pixs / 150.0);
     $(".bg-img-blur").css('opacity',opacityVal);
 });
+
+$(document).ready(function() {
+    // init AOS
+    AOS.init();
+});
