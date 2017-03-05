@@ -468,8 +468,14 @@ blockquote:before {
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-@media only screen and (max-device-width: 1000px) {
-    .parallax {
-        display: none
+@media only screen and (max-device-width: 1000px){
+    .parallax{
+        display: none;
+    }
+}
+
+@media (max-width: 1000px){
+    #story{
+        display: none;
     }
 }
