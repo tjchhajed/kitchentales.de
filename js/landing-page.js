@@ -98,3 +98,5 @@ $(document).ready(function() {
 
 			});
 		})(jQuery);
+
+document.getElementById("audio").volume = 0.5;
