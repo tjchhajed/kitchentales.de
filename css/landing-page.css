@@ -234,14 +234,6 @@ p.copyright {
     margin: 15px 0 0;
 }
 
-/* style for the google maps in the contact background */
-#map {
-    height: 60%;
-    width: 100%;
-    position: absolute;
-    z-index: -100;
-}
-
 /* transotopn of the navigation bar */
 .navbar {
     background: transparent;
