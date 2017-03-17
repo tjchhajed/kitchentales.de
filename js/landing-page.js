@@ -130,6 +130,25 @@ function showGoogleMaps() {
         animation: google.maps.Animation.DROP
     });
 
+    var srdAddressString = '<address>' +
+    '<h4>Hotel Shanti Kamal</br>' +
+    'Nagar Manmad Road</br>' +
+    'Near Sai Bhakta Niwas</br>' +
+    'Near Indian Oil Petrol Pump</br>' +
+    'Shirdi</br>' +
+    'Maharashtra 423109</br>' +
+    'India'
+    '</address>'
+
+     var srdAddressWindow = new google.maps.InfoWindow({
+       content: srdAddressString
+     });
+
+    shirdi_marker.addListener('click', function() {
+        srdAddressWindow.open(shirdi_map, shirdi_marker);
+    });
+
+
     var slgMapOptions = {
         zoom: 10, // initialize zoom level - the max value is 21
         streetViewControl: false, // hide the yellow Street View pegman
@@ -148,6 +167,22 @@ function showGoogleMaps() {
         map: siliguri_map,
         draggable: false,
         animation: google.maps.Animation.DROP
+    });
+
+    var slgAddressString = '<address>' +
+    '<h4>Shreema Bhawan</br>' +
+    'Haidar Para</br>' +
+    'Ward 39, Siliguri</br>' +
+    'West Bengal 734001</br>' +
+    'India'
+    '</address>'
+
+     var slgAddressWindow = new google.maps.InfoWindow({
+       content: slgAddressString
+     });
+
+    siliguri_marker.addListener('click', function() {
+        slgAddressWindow.open(siliguri_map, siliguri_marker);
     });
 }
 
