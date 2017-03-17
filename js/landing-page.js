@@ -116,13 +116,24 @@ function showGoogleMaps() {
         center: latLng
     };
 
-    map = new google.maps.Map(document.getElementById('map'),
+    shirdi_map = new google.maps.Map(document.getElementById('shirdi'),
         mapOptions);
 
     // Show the default red marker at the location
-    marker = new google.maps.Marker({
+    shirdi_marker = new google.maps.Marker({
         position: latLng,
-        map: map,
+        map: shirdi_map,
+        draggable: false,
+        animation: google.maps.Animation.DROP
+    });
+
+    siliguri_map = new google.maps.Map(document.getElementById('siliguri'),
+        mapOptions);
+
+    // Show the default red marker at the location
+    siliguri_marker = new google.maps.Marker({
+        position: latLng,
+        map: siliguri_map,
         draggable: false,
         animation: google.maps.Animation.DROP
     });

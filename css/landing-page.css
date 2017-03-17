@@ -472,7 +472,12 @@ blockquote:before {
     }
 }
 
-#map {
+#shirdi {
+        height: 400px;
+        width: 100%;
+}
+
+#siliguri {
         height: 400px;
         width: 100%;
 }
