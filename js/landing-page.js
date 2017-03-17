@@ -137,7 +137,8 @@ function showGoogleMaps() {
     'Near Indian Oil Petrol Pump</br>' +
     'Shirdi</br>' +
     'Maharashtra 423109</br>' +
-    'India'
+    'India</br>' +
+    'Phone: +91 2423 256 642'
     '</address>'
 
      var srdAddressWindow = new google.maps.InfoWindow({
