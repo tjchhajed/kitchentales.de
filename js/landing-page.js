@@ -194,9 +194,9 @@ google.maps.event.addDomListener(window, 'load', showGoogleMaps);
     function showNextQuote() {
         ++quoteIndex;
         quotes.eq(quoteIndex % quotes.length)
-            .fadeIn(1000)
+            .fadeIn(500)
             .delay(500)
-            .fadeOut(100, showNextQuote);
+            .fadeOut(500, showNextQuote);
     }
 
     showNextQuote();

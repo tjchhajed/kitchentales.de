@@ -14,7 +14,7 @@
     text-transform: uppercase;
     font-family: "Gotham-Light";
     font-weight: 600;
-    color: #aaa;
+    color: #777;
     font-size: 18px;
     font-weight: 100;
     padding: 20px;
@@ -40,7 +40,7 @@
     width: 100%;
     padding: 7px;
     border: none;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
     margin-bottom: 10px;
     font-family: "Gotham-Light";
     font-size: 20px;
@@ -88,23 +88,23 @@
 ::-webkit-input-placeholder {
    font-family: "Gotham-Light";
    font-weight: 300;
-   color: #aaa;
+   color: #777;
 }
 
 :-moz-placeholder { /* Firefox 18- */
   font-family: "Gotham-Light";
   font-weight: 300;
-  color: #aaa;
+  color: #777;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
   font-family: "Gotham-Light";
   font-weight: 300;
-  color: #aaa;
+  color: #777;
 }
 
 :-ms-input-placeholder {
   font-family: "Gotham-Light";
   font-weight: 300;
-  color: #aaa;
+  color: #777;
 }
