@@ -186,4 +186,22 @@ function showGoogleMaps() {
 
 google.maps.event.addDomListener(window, 'load', showGoogleMaps);
 
+(function() {
+
+    var quotes = $(".welcomes");
+    var quoteIndex = -1;
+
+    function showNextQuote() {
+        ++quoteIndex;
+        quotes.eq(quoteIndex % quotes.length)
+            .fadeIn(1000)
+            .delay(500)
+            .fadeOut(100, showNextQuote);
+    }
+
+    showNextQuote();
+
+})();
+
+
 });
