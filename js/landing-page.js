@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
@@ -46,8 +48,6 @@ if($('.navbar').length > 0){
     });
 }
 
-/* fadeIn animation with scroll (applicable anywhere in the html body)*/
-$(document).ready(function() {
     /* Every time the window is scrolled ... */
     $(window).scroll( function(){
         /* Check the location of each desired element */
@@ -60,10 +60,7 @@ $(document).ready(function() {
             }
         });
     });
-});
 
-/* testimonial slider */
-$(document).ready(function() {
 $('.owl-carousel').owlCarousel({
     items:3,
     loop:true,
@@ -75,7 +72,7 @@ $('.owl-carousel').owlCarousel({
     margin:30,
     stagePadding:30,
   });
-});
+
 
 /* blur background image on scroll */
 $(window).on('scroll', function () {
@@ -84,10 +81,10 @@ $(window).on('scroll', function () {
     $(".bg-img-blur").css('opacity',opacityVal);
 });
 
-$(document).ready(function() {
+
     // init AOS
     AOS.init();
-});
+
 
 (function($){
 			$(document).ready(function (){
@@ -188,3 +185,5 @@ function showGoogleMaps() {
 }
 
 google.maps.event.addDomListener(window, 'load', showGoogleMaps);
+
+});
