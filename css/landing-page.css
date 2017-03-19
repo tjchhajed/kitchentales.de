@@ -504,3 +504,29 @@ blockquote:before {
   padding-right: 20px;
   padding-left: 0px;
 }
+
+.contacts {
+  font-size: 30px;
+}
+
+@media (max-width: 1000px){
+    .contacts{
+        font-size: 18px;
+    }
+}
+
+.address-srd {
+  text-align: right;
+}
+.address-slg {
+  text-align: left;
+}
+
+@media (max-width: 1000px){
+    .address-srd{
+        text-align: center;
+    }
+    .address-slg{
+        text-align: center;
+    }
+}
